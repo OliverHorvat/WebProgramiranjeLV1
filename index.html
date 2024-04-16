@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the end product of first laboratory exercise from Web Development class. It is created by Oliver Horvat. It is website of a generic portfolio.">
+    <meta name="keywords" content="Web Development, FERIT, laboratory exercise, portfolio">
+    <meta name="author" content="Oliver Horvat">
+    <title>John's portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+<nav>
+    <div class="NavRow">
+        <div>
+            <img class="NavLogo" src="images/navlogo.png" alt="logoipsum" loading="lazy" aria-label="logoipsum logo">
+        </div>
+        <div></div>
+        <div class="Clickable">
+            <a href="#home" class="NavPurpleText" aria-label="home">Home</a>
+            <a href="#portfolio" class="NavText" aria-label="portfolio">Portfolio</a>
+            <a href="#about" class="NavText" aria-label="about me">About me</a>
+            <a href="#testimonials" class="NavText" aria-label="testimonials">Testimonials</a>
+        </div>
+        <div></div>
+        <div>
+            <button onclick="window.location.href='#contact'" class="NavButton" type="button" aria-label="contact form"><span class="PurpleButtonText">Contact Me</span></button>
+        </div>  
+    </div>
+</nav>
+
+<body>
+
+    <header id="home" class="header">
+        <div class="Left">
+            <span class="SmallBoldText"> Hey, I am John</span>
+            <span class="BigBoldText">I create <span class="BigPurpleText">product design</span> <span class="BigBoldText"> and brand experience</span></span>
+            <p class="SmallText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>    
+            <button button onclick="window.location.href='#contact'" class="PurpleButton" type="button" aria-label="contact form"><span class="WhiteButtonText">Get In Touch</span></button>
+        </div>
+        <div class="Right">
+            <img class="JohnImage" src="images/7b7b81beef751e84be8344c729c39ff8.png" alt="JohnImage" loading="lazy" aria-label="John's image">
+        </div>
+    </header>
+
+    <main>
+        <div class="MySkill">
+            <div class="SectionTitle">
+                <div>
+                    <p class="SmallBoldText">My Skills</p>
+                    <span class="BigBoldText">My Expertise</span>    
+            </div> 
+            <div class="Row">
+                <div class="Content">
+                    <div class="Section Title">
+                        <div class="Strategy & Direction">
+                            <img src="images/product-chain 1.png" loading="lazy" aria-label="strategy and direction image">
+                        </div>
+                        <div class="Content">
+                            <p class="RowBoldText">Strategy & Direction</p>
+                            <p class="RowText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Content">
+                    <div class="Section Title">
+                        <div class="Branding & Logo">
+                            <img src="images/tag 1.png" loading="lazy" aria-label="branding and logo image">
+                        </div>
+                        <div class="Content">
+                            <p class="RowBoldText">Branding & Logo</p>
+                            <p class="RowText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Content">
+                    <div class="Section Title">
+                        <div class="UI & UX Design">
+                            <img src="images/feather-pen 1.png" loading="lazy" aria-label="UI and UX design image">
+                        </div>
+                        <div class="Content">
+                            <p class="RowBoldText">UI & UX Design</p>
+                            <p class="RowText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Content">
+                    <div class="Section Title">
+                        <div class="Webflow Development">
+                            <img src="images/feather-pen 1-1.png" loading="lazy" aria-label="webflow development image">
+                        </div>
+                        <div class="Content">
+                            <p class="RowBoldText">Webflow Development</p>
+                            <p class="RowText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="About">
+            <div class="Left">
+              <img class="AboutMeImage" src="images/AboutMe.png" loading="lazy" aria-label="John's image">  
+            </div>
+            <div class="Right">
+                <span id="about" class="SmallBoldText">About</span>
+                <span class="BigBoldText">About me</span>
+                <p class="SmallText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                <span class="SmallText">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</span>
+            </div>
+        </div>
+
+        <div class="Blog">
+            <div class="BlogSectionTitle">
+                <div class="Left">
+                    <p id="portfolio" class="SmallBoldText">Recent Projects</p>
+                    <span class="BigBoldText">My Portfolio</span>
+                </div>
+                <div class="Right">
+                    <button class="SocialButton" aria-label="dribble link">
+                        <img onclick="window.location.href='https://dribbble.com/'" src="images/SocialButton.png" alt="Visit My Dribble" loading="lazy">
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="BlogRow"> 
+                <div class="Card"> 
+                    <img class="CardImage" src="images/Image.png" loading="lazy" aria-label="webpage example image">
+                    <div class="CardContent">    
+                        <span class="BigCardText">Ahuse</span>
+                        <p class="SmallCardText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                        <button onclick="window.location.href='https://dribbble.com/'" class="CardButton" aria-label="dribble link">
+                            <img src="images/Avatar.png" alt="Visit My Dribble" loading="lazy">
+                        </button>
+                    </div>
+    
+                </div>
+                <div class="Card"> 
+                    <img class="CardImage" src="images/Image-1.png" loading="lazy" aria-label="webpage example image">
+                    <div class="CardContent">    
+                        <span class="BigCardText">App Dashboard</span>
+                        <p class="SmallCardText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                        <button onclick="window.location.href='https://dribbble.com/'" class="CardButton" aria-label="dribble link">
+                            <img src="images/Avatar.png" alt="Visit My Dribble" loading="lazy">
+                        </button>
+                    </div>
+    
+                </div>
+                <div class="Card"> 
+                    <img class="CardImage" src="images/Image-2.png" loading="lazy" aria-label="webpage example image">
+                    <div class="CardContent">    
+                        <span class="BigCardText">Easy Rent</span>
+                        <p class="SmallCardText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                        <button onclick="window.location.href='https://dribbble.com/'" class="CardButton" aria-label="dribble link">
+                            <img src="images/Avatar.png" alt="Visit My Dribble" loading="lazy">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Testimonial">
+            <div class="TestimonialTitle">
+                <p id="testimonials" class="SmallBoldText">Clients Feedback</p>
+                <span class="BigBoldText">Customer Testimonials</span>
+            </div>
+            <div class="TestimonialRows">
+                <div class="TestimonialContent">
+                    <img src="images/stars.png" loading="lazy">
+                    <span class="TestimonialText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</span>
+                    <div class="TestimonialInfo">
+                        <img class="TestimonialAuthorImage" src="images/TAvatar1.png" alt="Dianne Russell" loading="lazy" aria-label="Diane Russell's image">
+                        <div class="TestimonialAuthor">
+                            <span class="TestimonialName">Dianne Russell</span>
+                            <span class="TestimonialWorkplace">Starbucks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="TestimonialContent">
+                    <img src="images/stars.png" loading="lazy">
+                    <span class="TestimonialText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</span>
+                    <div class="TestimonialInfo">
+                        <img class="TestimonialAuthorImage" src="images/TAvatar2.png" alt="Kristin Watson" loading="lazy" aria-label="Kristin Watson's image">
+                        <div class="TestimonialAuthor">
+                            <span class="TestimonialName">Kristin Watson</span>
+                            <span class="TestimonialWorkplace">Louis Vuitton</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="TestimonialContent">
+                    <img src="images/stars.png" loading="lazy">
+                    <span class="TestimonialText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</span>
+                    <div class="TestimonialInfo">
+                        <img class="TestimonialAuthorImage" src="images/TAvatar3.png" alt="Kathryn Murphy" loading="lazy" aria-label="Kathryn Murphy's image">
+                        <div class="TestimonialAuthor">
+                            <span class="TestimonialName">Kathryn Murphy</span>
+                            <span class="TestimonialWorkplace">McDonald's</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Contact">
+            <div class="ContactText">
+                <span id="contact" class="SmallBoldText">Get In Touch</span>    
+                <span class="BigBoldText">Contact me</span>
+                <span class="SmallText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</span>
+            </div>
+            <form>
+                <div class="formrow">
+                    <div class="box">
+                        <label class="FormText" for="firstname">First name</label>
+                        <input type="text" id="firstname" name="fastname" aria-label="input first name in form"> 
+                    </div>
+                    <div class="box">
+                        <label class="FormText" for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="lastname" aria-label="input last name in form"> 
+                    </div>
+                </div>
+                <div class="formrow">
+                    <div class="box">
+                        <label class="FormText" for="email">Email</label>
+                        <input type="text" id="email" name="email" aria-label="input email in form">
+                    </div>
+                    <div class="box">
+                        <label class="FormText" for="phonenumber">Phone Number</label>
+                        <input type="text" id="phonenumber" name="phonenumber" aria-label="input phone number in form">
+                    </div>
+                </div>
+                <div class="box">
+                    <label class="FormText" for="options">Choose a topic</label>
+                    <select name="options" id="options" aria-label="select an option in form">
+                        <option value="" disabled selected>Select one...</option>
+                        <option value="option1" aria-label="option 1 in form">Option 1</option>
+                        <option value="option2" aria-label="option 2 in form">Option 2</option>
+                        <option value="option3" aria-label="option 3 in form">Option 3</option>
+                        <option value="option4" aria-label="option 4 in form">Option 4</option>
+                    </select>
+                </div>
+                <div class="bigbox">
+                    <label class="FormText" for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type your message..." rows = 20 cols = 15 aria-label="type your message in form"></textarea>
+                </div>
+                <div class="smallbox">
+                    <input class="checkbox" type="checkbox" name="terms" id="terms" aria-label="I accept the terms checkbox">
+                    <label class="FormText" for="terms">I accept the terms</label>
+                </div>
+                
+                <button class="PurpleButton" type="button"><span class="WhiteButtonText" aria-label="submit the form button">Submit</span></button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+<footer>
+    <div>
+        <div class="NavRow">
+            <div>
+                <img class="NavLogo" src="images/navlogo.png" alt="logoipsum" loading="lazy" aria-label="logoipsum logo">
+            </div>
+            <div></div>
+            <div class="Clickable">
+                <a href="#home" class="NavPurpleText" aria-label="home">Home</a>
+                <a href="#portfolio" class="NavText" aria-label="portfolio">Portfolio</a>
+                <a href="#about" class="NavText" aria-label="about me">About me</a>
+                <a href="#about" class="NavText" aria-label="contact me">Contact me</a>
+                <a href="#testimonials" class="NavText" aria-label="testimonials">Testimonials</a>
+            </div>
+            <div></div>
+            <div>
+                <button onclick="window.location.href='#contact'" class="NavButton" type="button"><span class="PurpleButtonText" aria-label="contact form">Contact Me</span></button>
+            </div>  
+        </div>
+        <hr>
+        <div class="FooterDown">
+            <div>
+                <span class="SmallBoldText" aria-label="this website is made by Oliver Horvat">Made by Oliver Horvat</span>
+            </div>
+            <div>
+                <a class="SmallBoldText" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="NavText" aria-label="do not click this link">Don't click me</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
